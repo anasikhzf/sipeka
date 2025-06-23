@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* OPTIONAL RESET (boleh ada, boleh tidak) */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: white; /* atau sesuai Tailwind, bisa dikontrol lewat kelas */
+  font-family: system-ui, sans-serif;
+}
+
+/* html,
+body {
+  height: 100%;
+  overflow: hidden;
+} */
